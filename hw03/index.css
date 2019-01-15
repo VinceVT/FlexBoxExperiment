@@ -1,1 +1,89 @@
  /* Your code here */
+
+.Navbar {
+    display: flex;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.Navbar_End {
+    margin-left: auto;
+}
+
+.Background {
+    background-color: #8FFEF0;
+    min-height: 40vw;
+    font-size: 28px;
+}
+
+.Flexbox {
+    display: flex;
+    min-height: 5vw;
+
+}
+
+.box {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    width: 100%;
+
+}
+
+.box_center {
+    background: white;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.box_center_double {
+    background: white;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66%;
+    border:solid
+}
+
+.box_c_uno {
+    background: white;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34%;
+}
+
+
+.col {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 5;
+    height: 100%;
+}
+
+.red {
+  background: red;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.green {
+  background: yellowgreen;
+}
+.blue {
+  background: steelblue;
+}
+
